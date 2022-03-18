@@ -1,0 +1,39 @@
+
+
+#add-Item{
+          background-color: darkcyan;
+          height:70px;
+          width: 112px;
+          font-family: sans-serif;
+          font-size: larger;
+          border-radius: 20px;
+          border:3px solid;
+}
+#add-Item:hover{
+          background-color: rgb(1, 82, 82);
+}
+body{
+          overflow-x: hidden;
+}
+/* Hide scrollbar for Chrome, Safari and etc. */
+::-webkit-scrollbar {
+          display: none;
+          -ms-overflow-style: none;
+          scrollbar-width: none;}
+        
+.TextInputs{
+          background-color: rgb(180, 180, 167);
+          height: 150px;
+          width: 300px;
+          overflow-y:scroll;
+          border-radius: 0px;
+          border: 2px solid;
+          padding-bottom: 0;
+}
+.NameOFtextInputs{
+          font-size: 30px ;
+          font-family: sans-serif;
+          font-weight: 700;
+          position: fixed;
+
+}
